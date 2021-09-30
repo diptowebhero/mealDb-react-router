@@ -1,0 +1,29 @@
+.header{
+    background: url('https://cpbargrill.com/wp-content/uploads/revslider/slider-home-2/hero_slide_3.jpg');
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header::before{
+    opacity: 0.25;
+}
+.title h1{
+    font-size: 72px;
+}
+.button{
+    background-color: orange;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
